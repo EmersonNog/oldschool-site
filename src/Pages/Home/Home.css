@@ -1,0 +1,97 @@
+/* Home.css */
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#home-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Goldman", sans-serif;
+  min-height: 100vh;
+}
+
+.content {
+  padding: 20px;
+}
+
+.brasao {
+  width: 250px;
+  margin-top: 20px;
+}
+
+h1 {
+  margin-top: 20px; /* Adiciona um pouco de espaço acima do título */
+}
+
+.map-section {
+  padding: 20px;
+  background-color: #f4f4f4; /* Cor de fundo opcional para destacar a seção do mapa */
+  border-top: 2px solid #ddd; /* Linha separadora opcional */
+  margin-top: 20px; /* Espaçamento acima da seção do mapa */
+}
+
+.map-section h2 {
+  margin: 0;
+  padding-bottom: 10px; /* Espaçamento abaixo do título */
+  font-size: 24px; /* Tamanho do texto para o título */
+}
+
+.map-section p {
+  font-size: 16px; /* Tamanho do texto para o parágrafo */
+  margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}
+
+.admins-section {
+  padding: 20px;
+  background-color: #f4f4f4; /* Cor de fundo opcional para destacar a seção de administradores */
+  border-top: 2px solid #ddd; /* Linha separadora opcional */
+  text-align: center; /* Centraliza o texto da seção */
+}
+
+.admins-section h2 {
+  margin: 0;
+  padding-bottom: 10px; /* Espaçamento abaixo do título */
+  font-size: 24px; /* Tamanho do texto para o título */
+}
+
+.admins-section p {
+  font-size: 16px; /* Tamanho do texto para o parágrafo */
+  margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}
+
+.admins-list {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os cards se movam para a linha seguinte */
+  justify-content: center; /* Centraliza os cards horizontalmente */
+  gap: 10px; /* Espaço entre os cards */
+  max-width: 800px; /* Define uma largura máxima para a lista de cards */
+  margin: 0 auto; /* Centraliza a lista de cards dentro da seção */
+}
+
+.admin-card {
+  flex: 1 1 calc(50% - 20px);
+  max-width: 200px;
+}
+
+.join-link {
+  color: gold;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.join-link:hover {
+  text-decoration: underline;
+}
+
+.introdution {
+  font-family: "Reem Kufi", sans-serif;
+}
+
+.lema {
+  font-family: "Dancing Script", cursive;
+  font-size: larger;
+}
