@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Select from "react-select"; // Importando o Select
+import Select from "react-select";
 import { db } from "../../firebaseConfig";
 import {
   collection,
@@ -16,6 +16,7 @@ import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement } from "chart.js";
 import ChartDataLabels from "chartjs-plugin-datalabels";
 import "./Uan.css";
 import Navbar from "../../Components/NavBar/NavBar";
+import Footer from "../../Components/Footer/Footer";
 
 ChartJS.register(Title, Tooltip, Legend, ArcElement, ChartDataLabels);
 
@@ -224,6 +225,7 @@ function Uan() {
           </div>
         )}
       </div>
+      <Footer />
     </div>
   );
 }
