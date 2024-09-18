@@ -73,15 +73,15 @@ function Home() {
           <AdminCard
             image={admin}
             name="Júlia"
-            description="Administradora"
-            icon={faShieldAlt}
+            description="Subchefe"
+            icon={faStar}
             id="@juliaflavia"
           />
           <AdminCard
             image={admin}
             name="Rick"
-            description="Administrador"
-            icon={faShieldAlt}
+            description="Subchefe"
+            icon={faStar}
             id="@rickwilliam"
           />
           <AdminCard

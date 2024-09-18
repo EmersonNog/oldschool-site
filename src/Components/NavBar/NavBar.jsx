@@ -1,7 +1,7 @@
 // src/components/Navbar.js
 import React from "react";
 import { Link } from "react-router-dom";
-import "./NavBar.css"; // Crie um arquivo CSS para estilizar a Navbar
+import "./NavBar.css";
 
 function Navbar() {
   return (
@@ -10,6 +10,9 @@ function Navbar() {
         <Link to="/">OldSchool_</Link>
       </div>
       <ul className="navbar-links">
+        <li>
+          <Link to="/uan">UAN</Link>
+        </li>
         <li>
           <Link to="/join">Junte-se</Link>
         </li>

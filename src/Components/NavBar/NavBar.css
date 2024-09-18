@@ -36,3 +36,14 @@
 .navbar-links a:hover {
   text-decoration: underline;
 }
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+  .navbar-logo a {
+    font-size: 18px;
+  }
+
+  .navbar-links a {
+    font-size: 14px;
+  }
+}
