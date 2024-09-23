@@ -7,7 +7,7 @@ import joinImage from "../../assets/Images/join.jpeg";
 
 function Join() {
   const handleJoinClick = () => {
-    window.location.href = "https://chat.whatsapp.com/HWVOEq5XCzcIuCTXxgIQbb";
+    // window.location.href = "https://chat.whatsapp.com/HWVOEq5XCzcIuCTXxgIQbb";
   };
 
   return (
@@ -28,7 +28,7 @@ function Join() {
             começar sua jornada com a Família OldSchool.
           </p>
           <button onClick={handleJoinClick} className="join-button">
-            Quero me juntar!
+            Temporariamente fechado!
           </button>
         </div>
       </div>

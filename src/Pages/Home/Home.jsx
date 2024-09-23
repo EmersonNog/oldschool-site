@@ -8,10 +8,12 @@ import Footer from "../../Components/Footer/Footer";
 import "./Home.css";
 import brasao from "../../assets/Images/brasao.png";
 import admin from "../../assets/Images/admin.png";
+import masks from "../../assets/Images/masks.png";
 import {
   faCrown,
   faStar,
   faShieldAlt,
+  faMasksTheater,
 } from "@fortawesome/free-solid-svg-icons";
 
 function Home() {
@@ -49,11 +51,12 @@ function Home() {
         <MapComponent />
       </section>
       <section className="admins-section">
-        <h2>Conheça os Administradores</h2>
+        <h2>Conheça os Administradores e alguns traidores...</h2>
         <p>
           Aqui estão os administradores dedicados que ajudam a manter o grupo
-          unido e funcionando. <br />
-          Eles são a força motriz por trás de nossa comunidade!
+          unido e funcionando e uns que decidiram trair a familia.
+          <br />
+          {/* Eles são a força motriz por trás de nossa comunidade! */}
         </p>
         <div className="admins-list">
           <AdminCard
@@ -71,24 +74,24 @@ function Home() {
             id="@Pbf1606"
           />
           <AdminCard
-            image={admin}
+            image={masks}
             name="Júlia"
-            description="Subchefe"
+            description="Traidora"
             icon={faStar}
             id="@juliaflavia"
           />
           <AdminCard
-            image={admin}
+            image={masks}
             name="Rick"
-            description="Subchefe"
+            description="Traidor"
             icon={faStar}
             id="@rickwilliam"
           />
           <AdminCard
-            image={admin}
+            image={masks}
             name="Gusmão"
-            description="Administradora"
-            icon={faShieldAlt}
+            description="Traidora"
+            icon={faMasksTheater}
             id="@dgusmao"
           />
         </div>

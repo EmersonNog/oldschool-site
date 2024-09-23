@@ -10,9 +10,9 @@ function Navbar() {
         <Link to="/">OldSchool_</Link>
       </div>
       <ul className="navbar-links">
-        <li>
+        {/* <li>
           <Link to="/uan">UAN</Link>
-        </li>
+        </li> */}
         <li>
           <Link to="/join">Junte-se</Link>
         </li>

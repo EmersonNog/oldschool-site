@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About/About";
 import Join from "../Pages/JoinUs/JoinUs";
-import Uan from "../Pages/Uan/Uan";
+// import Uan from "../Pages/Uan/Uan";
 
 function Rotas() {
   return (
@@ -38,7 +38,7 @@ function Rotas() {
             </>
           }
         />
-        <Route
+        {/* <Route
           exact
           path="/uan"
           element={
@@ -47,7 +47,7 @@ function Rotas() {
               <Uan />{" "}
             </>
           }
-        />
+        /> */}
       </Routes>
     </Router>
   );

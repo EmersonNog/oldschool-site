@@ -47,9 +47,9 @@ h1 {
 
 .admins-section {
   padding: 20px;
-  background-color: #f4f4f4; /* Cor de fundo opcional para destacar a seção de administradores */
-  border-top: 2px solid #ddd; /* Linha separadora opcional */
-  text-align: center; /* Centraliza o texto da seção */
+  background-color: #f4f4f4;
+  border-top: 2px solid #ddd;
+  text-align: center;
 }
 
 .admins-section h2 {
@@ -65,7 +65,7 @@ h1 {
 
 .admins-list {
   display: flex;
-  flex-wrap: wrap; /* Permite que os cards se movam para a linha seguinte */
+  flex-wrap: wrap;
   justify-content: center; /* Centraliza os cards horizontalmente */
   gap: 10px; /* Espaço entre os cards */
   max-width: 800px; /* Define uma largura máxima para a lista de cards */
