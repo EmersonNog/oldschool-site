@@ -77,14 +77,14 @@ function Home() {
             image={masks}
             name="Júlia"
             description="Traidora"
-            icon={faStar}
+            icon={faMasksTheater}
             id="@juliaflavia"
           />
           <AdminCard
             image={masks}
             name="Rick"
             description="Traidor"
-            icon={faStar}
+            icon={faMasksTheater}
             id="@rickwilliam"
           />
           <AdminCard
